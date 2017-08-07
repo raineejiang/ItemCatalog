@@ -22,7 +22,7 @@ class Category(Base):
     quantity = Column(Integer, default=0)
     image = Column(String(250), default="http://placehold.it/800x500")
     user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship("User")
+    user = relationship(User)
     items = relationship("Item", cascade="all, delete-orphan")
 
     @property
