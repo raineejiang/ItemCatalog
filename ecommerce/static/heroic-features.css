@@ -1,0 +1,63 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.navbar {
+    background-color: #7956D5 !important;
+    border-style: solid;
+    border-color: #7956D5;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.*/
+}
+
+.hero-spacer {
+    background-color: #B9F1F3;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: #7956D5;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+p {
+    font-size: 15px !important;
+}
+
+.jumbotron {
+    padding: 10px 10px 10px 10px !important;
+}
+
+.btn {
+    background-color: #7956D5 !important;
+    color: white !important;
+}
+
+.flash {
+    color: #F38FCB !important;
+}
+
+.btn-unique {
+    background: #B9F1F3 !important;
+    color: black !important;
+}
+
+.item-image{
+    height: 200px !important;
+}
+
+ul {
+    text-align: center !important;
+    list-style-position: inside !important;
+}
+
+
